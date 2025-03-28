@@ -4,7 +4,7 @@
 #define SWITCH_PIN 21  // GPIO Pin Number
 
 int main() {
-    // 1. pigpio Initialize
+    // 1. pigpio 초기화
     if (gpioInitialise() < 0) {
         printf("pigpio Init Fail\n");
         return 1;
